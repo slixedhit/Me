@@ -1,5 +1,5 @@
 {
-  "name": "Makima theme",
+  "name": "Makima: Crimson Control",
   "version": "1.0.0",
   "authors": [{ "name": "slix", "id": "000000000000000000" }],
   "spec": 2,
@@ -51,7 +51,7 @@
     "TEXT_FEEDBACK_CRITICAL": ["#ED4245", "#ED4245"],
     "TEXT_FEEDBACK_POSITIVE": ["#57F287", "#57F287"],
     "TEXT_FEEDBACK_WARNING": ["#F0B232", "#F0B232"],
-    "TEXT_CHAT_TIMESTAMP": ["#7A6C6F", "#7A6C6F"],
+    "TEXT_CHAT_TIMESTAMP": ["#AA969A", "#AA969A"],
     "INPUT_BACKGROUND": ["#171717", "#171717"],
     "INPUT_BORDER": ["#202020", "#202020"],
     "INPUT_BORDER_ACTIVE": ["#B3122F", "#B3122F"],
@@ -404,6 +404,26 @@
   },
   "customCSS": [
     {
+      "selector": ".message-2CShn3",
+      "property": "border-radius",
+      "value": "8px"
+    },
+    {
+      "selector": ".message-2CShn3:hover",
+      "property": "background",
+      "value": "#15151588"
+    },
+    {
+      "selector": ".message-2CShn3:hover .timestamp-2hMlXz",
+      "property": "color",
+      "value": "#D4AF37"
+    },
+    {
+      "selector": ".message-2CShn3 .timestamp-2hMlXz",
+      "property": "color",
+      "value": "#7A6C6F"
+    },
+    {
       "selector": ".selected .guildIcon-3VtInV, .selected .channel-2YrOa1",
       "property": "box-shadow",
       "value": "0 0 12px #B3122F80"
@@ -444,11 +464,6 @@
       "value": "drop-shadow(0 0 6px #D4AF37AA)"
     },
     {
-      "selector": "@keyframes pulse",
-      "property": "0% { box-shadow: 0 0 0 0 #B3122F66; } 100% { box-shadow: 0 0 0 10px #B3122F00; }",
-      "value": ""
-    },
-    {
       "selector": ".container-1NXEtd",
       "property": "background",
       "value": "linear-gradient(135deg, #090909 0%, #111111 100%)"
@@ -477,6 +492,36 @@
       "selector": ".emojiButton-3u1L99",
       "property": "background",
       "value": "#171717"
+    },
+    {
+      "selector": ".message-2CShn3 .author-3JH1V8",
+      "property": "font-weight",
+      "value": "600"
+    },
+    {
+      "selector": ".message-2CShn3 .contents-1QkPwP",
+      "property": "line-height",
+      "value": "1.6"
+    },
+    {
+      "selector": ".chat-3bRxxu",
+      "property": "padding",
+      "value": "12px 16px"
+    },
+    {
+      "selector": ".divider-2fFd7k",
+      "property": "border-color",
+      "value": "#202020"
+    },
+    {
+      "selector": ".divider-2fFd7k .interaction-1t3MnX",
+      "property": "color",
+      "value": "#D4AF37"
+    },
+    {
+      "selector": "@keyframes pulse",
+      "property": "0% { box-shadow: 0 0 0 0 #B3122F66; } 100% { box-shadow: 0 0 0 10px #B3122F00; }",
+      "value": ""
     }
   ]
 }
