@@ -1,0 +1,38 @@
+/**
+ * @name Chainsaw Man - Makima
+ * @author Request - Slix 
+ * @version 1.0
+ * @description Dark Makima / Chainsaw Man theme
+ *
+ */
+
+@import url("https://vsthemes.org/uploads/generator/client/BasicBackground.css");
+
+:root {
+    /* Theme Colors */
+    --accentcolor: 196,30,58; /* Crimson Red */
+    --transparencycolor: 8,8,8;
+    --transparencyalpha: 0.12;
+
+    /* UI Transparency */
+    --messagetransparency: 0.15;
+    --guildchanneltransparency: 0.12;
+    --memberlistransparency: 0.08;
+
+    /* Background */
+    --background: url("https://images.alphacoders.com/127/1271978.jpg");
+    --backgroundsize: cover;
+    --backgroundblur: 2px;
+
+    /* Popouts */
+    --popoutsize: cover;
+    --popoutblur: 6px;
+
+    /* Backdrop */
+    --backdrop: rgba(0,0,0,0.55);
+    --backdropblur: 6px;
+    --backdropsize: cover;
+
+    /* Compatibility */
+    --version1_0_5: none;
+}
